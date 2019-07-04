@@ -1,0 +1,8 @@
+e2e:
+  image: sateeshm/chrome-headless:75
+  cache:
+    paths:
+      - .cache
+  script:
+    - yarn install --pure-lockfile --cache-folder .cache/yarn
+    - yarn run start:integration
