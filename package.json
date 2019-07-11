@@ -7,7 +7,7 @@
     "nightwatch": "^1.1.12"
   },
   "scripts": {
-    "start": "nightwatch",
-    "start:integration": "nightwatch -e integration"
+    "e2e": "nightwatch",
+    "e2e:integration": "nightwatch -e integration"
   }
 }
