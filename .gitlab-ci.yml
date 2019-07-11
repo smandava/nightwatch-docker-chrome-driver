@@ -5,4 +5,4 @@ e2e:
       - .cache
   script:
     - yarn install --pure-lockfile --cache-folder .cache/yarn
-    - yarn run start:integration
+    - yarn run e2e:integration
